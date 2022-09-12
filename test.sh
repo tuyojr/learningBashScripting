@@ -5,7 +5,8 @@ function helloFunc(){
     echo "Empty Argument passed"
     else
     echo "Hello $1, welcome to today's session."
+    echo "Today's date is $(date)"
     fi
 }
 
-helloFunc
+helloFunc "tuyojr"
