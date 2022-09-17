@@ -1,11 +1,11 @@
 #!/usr/bin/bash
 
-touch demoLogs.log
+touch /home/vagrant/altschool/memoryLogs/usageLogs.log
 
-free >> demoLogs.log
+free >> /home/vagrant/altschool/memoryLogs/usageLogs.log
 
-date >> demoLogs.log
+echo "_____________" >> /home/vagrant/altschhool/memoryLogs/usageLogs.logs
 
 echo "Your command has been executed."
-echo "Run the ls command to see all the files in this driectory."
-echo "You should see a demoLogs file. Open the demoLogs file created to see the updated logs."
+echo "Run 'cd /home/vagrant/altschool/memoryLogs' and search for 'usageLogs.log' file created."
+echo "Run 'cat usageLogs.log' to display the contents of the file."
