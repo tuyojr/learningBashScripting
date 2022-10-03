@@ -27,3 +27,5 @@ echo ${!otherVar} # expands the value of otherVar
 
 # using builtin variables like "$?", "$$", "$@", "$#", "$1 $2..."
 echo "The last program's return value is: $?"
+
+echo "This script's PID is: $$"
