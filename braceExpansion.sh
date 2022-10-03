@@ -4,3 +4,5 @@
 # the first and last characters (both included also)
 
 echo {1..10}
+
+echo {a..z}
