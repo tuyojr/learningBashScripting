@@ -24,3 +24,5 @@ echo ${user_email2:-"username@domain.com"}
 # Indirect expansion
 otherVar="user_email"
 echo ${!otherVar} # expands the value of otherVar
+
+# using builtin variables like "$?", "$$", "$@", "$#", "$1 $2..."
