@@ -29,3 +29,5 @@ echo ${!otherVar} # expands the value of otherVar
 echo "The last program's return value is: $?"
 
 echo "This script's PID is: $$"
+
+echo "The number of arguments passed to this script is: $#"
