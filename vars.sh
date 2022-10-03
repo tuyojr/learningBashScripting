@@ -25,11 +25,9 @@ echo ${user_email2:-"username@domain.com"}
 otherVar="user_email"
 echo ${!otherVar} # expands the value of otherVar
 
-# using builtin variables like "$?", "$$", "$@", "$#", "$1 $2..."
+# using builtin variables like "$?", "$$", "$#""
 echo "The last program's return value is: $?"
 
 echo "This script's PID is: $$"
 
 echo "The number of arguments passed to this script is: $#"
-
-echo "All arguments passed to this script: $@"
