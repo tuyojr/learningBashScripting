@@ -35,3 +35,4 @@ echo "The number of arguments passed to this script is: $#"
 # using built-in variable to check working directory $PWD
 
 echo "You're currently in: $PWD"
+echo "You're currently in: $(pwd)"
