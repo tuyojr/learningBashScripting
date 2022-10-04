@@ -31,3 +31,7 @@ echo "The last program's return value is: $?"
 echo "This script's PID is: $$"
 
 echo "The number of arguments passed to this script is: $#"
+
+# using built-in variable to check working directory $PWD
+
+echo "You're currently in: $PWD"
