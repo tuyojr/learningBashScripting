@@ -36,3 +36,14 @@ if [ "$Name" == "tuyojr" ] || [ "$Name" == "vagrant" ]
 then
     echo "This will run if the user's $Name is tuyojr or vagrant."
 fi
+
+# check a string against a regex pattern using the =~ operator
+# it is called a regex matching sign
+
+email=olutuyod@gmail.com
+
+if [[ "$email" =~ [a-z]+@[a-z]{2,}\.(com|net|org) ]]; then
+    echo "This email is valid."
+fi
+
+
