@@ -11,3 +11,5 @@ then
     echo "Your name and username are not the same."
 else
     echo "Your name and username are the same."
+fi
+
