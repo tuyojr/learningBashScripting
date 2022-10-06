@@ -42,8 +42,13 @@ fi
 
 email=olutuyod@gmail.com
 
+# The words between the [[ and ]] do not undergo word 
+# splitting and filename expansion. The shell performs tilde 
+# expansion, parameter and variable expansion, arithmetic 
+# expansion, command substitution, process substitution, 
+# and quote removal on those words (the expansions that 
+# would occur if the words were enclosed in double quotes).
 if [[ "$email" =~ [a-z]+@[a-z]{2,}\.(com|net|org) ]]; then
     echo "This email is valid."
 fi
-
 
