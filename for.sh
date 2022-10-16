@@ -17,3 +17,11 @@ for output in README.md
 do
     cat "$output"
 done
+
+# displays the content of all the files with a particular
+# file format (shell in this case)
+
+for output in ./*.sh
+do
+    echo "$output"
+done
