@@ -12,3 +12,8 @@ do
     echo $a
 done
 
+# displays the content in the file
+for output in README.md
+do
+    cat "$output"
+done
